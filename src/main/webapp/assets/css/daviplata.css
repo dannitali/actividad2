@@ -1,0 +1,162 @@
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50 px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background: #e95845;
+    height: 100px;
+
+}
+
+img{
+ margin-left: 0%;
+ margin-top: 7px;
+ max-width: 150px;
+ max-height: 150px;
+
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 60px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    color:rgb(0, 0, 0);
+}
+
+
+.imagen img {
+    margin-top: 60px;
+    margin-left: 65px;
+    margin-right: 80px;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+
+.imagen2 img {
+    margin-top: -3000px;
+    margin-left: 640px;
+    margin-right: 200px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+
+.caja1 {
+    background-color:  rgba(228, 215, 228, 0.685) ;
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 30px;
+
+
+    
+    
+}
+
+.caja2 {
+    background-color: rgba(228, 215, 228, 0.685) ;
+    width: 500px;
+    height: 200px;
+    margin-top: -198px;
+    margin-left: 700px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+
+.text{
+
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.texto{
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+
+/*FOOTER*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+.pie{
+    background: #000000;
+    margin-top: 100px;
+}
+
+
+span{
+    font-size: 23px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    height: 200px;
+}
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    color: white;
+    padding: 10px 0;
+}
+a{
+    color: rgba(255, 255, 255, 0.527);
+    text-decoration: none;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background: none;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+    background: white;
+    color: blueviolet;
+    font-size: 18px;
+}
+
+
+
+	  
